@@ -8,7 +8,7 @@ def getUsername(studentID, birthTuple):
     s = requests.Session()
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Firefox/108.0",
         "Connection": "keep-alive"
     }
 
